@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="SkynetzModel1StoreContainer" CdmEntityContainer="SkynetzEntities1">
+    <EntitySetMapping Name="Planoes">
+      <EntityTypeMapping TypeName="SkynetzModel1.Plano">
+        <MappingFragment StoreEntitySet="Plano">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Nome" ColumnName="Nome" />
+          <ScalarProperty Name="Duracao" ColumnName="Duracao" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Historicoes">
+      <EntityTypeMapping TypeName="SkynetzModel1.Historico">
+        <MappingFragment StoreEntitySet="Historico">
+          <ScalarProperty Name="SemFaleMais" ColumnName="SemFaleMais" />
+          <ScalarProperty Name="ComFaleMais" ColumnName="ComFaleMais" />
+          <ScalarProperty Name="Plano" ColumnName="Plano" />
+          <ScalarProperty Name="Tempo" ColumnName="Tempo" />
+          <ScalarProperty Name="Destino" ColumnName="Destino" />
+          <ScalarProperty Name="Origem" ColumnName="Origem" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

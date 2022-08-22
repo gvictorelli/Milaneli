@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SkynetzModel1" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Plano">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nome" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="Duracao" Type="Int32" />
+  </EntityType>
+  <EntityContainer Name="SkynetzEntities1" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Planoes" EntityType="Self.Plano" />
+    <EntitySet Name="Historicoes" EntityType="SkynetzModel1.Historico" />
+  </EntityContainer>
+  <EntityType Name="Historico">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Origem" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="Destino" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="Tempo" Type="Int32" />
+    <Property Name="Plano" Type="String" MaxLength="15" FixedLength="true" Unicode="true" />
+    <Property Name="ComFaleMais" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="SemFaleMais" Type="Decimal" Precision="18" Scale="2" />
+  </EntityType>
+</Schema>
