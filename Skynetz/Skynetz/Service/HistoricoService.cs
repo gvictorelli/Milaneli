@@ -1,8 +1,5 @@
 ﻿using Skynetz.Data;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Web;
 
 namespace Skynetz.Service
 {
@@ -34,7 +31,7 @@ namespace Skynetz.Service
             List<Historico> historicoList = _historicoDB.Lista();
             List<HistoricoDto> historicoDtoList = new List<HistoricoDto>();
 
-            foreach(var historico in historicoList)
+            foreach (var historico in historicoList)
             {
                 historicoDtoList.Add
                 (

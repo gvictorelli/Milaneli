@@ -1,9 +1,5 @@
 ﻿using Skynetz.Interface;
 using Skynetz.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
 
 namespace Skynetz.Service
 {
@@ -17,7 +13,7 @@ namespace Skynetz.Service
                 valor = (ligacao.Duracao - 30) * (ligacao.Tarifa * (decimal)1.1);
             }
 
-            return valor;   
+            return valor;
         }
     }
 }

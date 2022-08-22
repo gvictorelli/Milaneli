@@ -14,20 +14,12 @@ namespace Skynetz.Data
 
         public void Insert(Historico historico)
         {
-            try
+            using (var db = new SkynetzEntities1())
             {
-                using (var db = new SkynetzEntities1())
-                {
-                    historico.Id = 1;
-                    db.Historico.Add(historico);
-                    db.SaveChanges();
-                }
+                historico.Id = 1;
+                db.Historico.Add(historico);
+                db.SaveChanges();
             }
-            catch(Exception ex)
-            {
-                var tewte = ex.Message;
-            }
-            
         }
     }
 

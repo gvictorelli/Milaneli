@@ -169,7 +169,6 @@ C:\Users\grego\Documents\Milaneli\Skynetz\Skynetz\bin\System.Web.Webpages.Razor.
 C:\Users\grego\Documents\Milaneli\Skynetz\Skynetz\bin\System.Web.Helpers.xml
 C:\Users\grego\Documents\Milaneli\Skynetz\Skynetz\bin\System.Web.Mvc.xml
 C:\Users\grego\Documents\Milaneli\Skynetz\Skynetz\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\grego\Documents\Milaneli\Skynetz\Skynetz\obj\Debug\Skynetz.csproj.AssemblyReference.cache
 C:\Users\grego\Documents\Milaneli\Skynetz\Skynetz\obj\Debug\Skynetz.csproj.CoreCompileInputs.cache
 C:\Users\grego\Documents\Milaneli\Skynetz\Skynetz\obj\Debug\Skynetz.csproj.CopyComplete
 C:\Users\grego\Documents\Milaneli\Skynetz\Skynetz\obj\Debug\Skynetz.dll

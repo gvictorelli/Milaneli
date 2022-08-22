@@ -53,10 +53,10 @@
             </div>
         </div>
         <div class="col-md-8">
-            <h2>Tarifa fixa por minuto</h2>
+            <h2>Histórico de Preços</h2>
             <div class="panel panel-default">
               <!-- Default panel contents -->
-              <div class="panel-heading">Histórico de Preços</div>
+              <div class="panel-heading">Verifique os custo com e sem o plano FaleMais</div>
 
                 <asp:Repeater ID="rpt" runat="server" >
                     <HeaderTemplate>
